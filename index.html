@@ -6,24 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar">
         <a href="#" class="logo">SHAN<span>X</span></a>
         <ul>
-            <li class="active"><a href="home">Home</a></li>
-            <li><a href="about">About</a></li>
-            <li><a href="projects">Projects</a></li>
-            <li><a href="certificates">Certificates</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-info">
             <h1>Kristian Shine Carro</h1>
-            <h2>I'm a Frontend Developer</h2>
+            <h2>I'm a "wala pa nag iisip pa kung ano😬"</h2>
             <p>Hi! I am John Kristian Shine Carro, a Computer Science student at Batangas State University. </p>
             <div class="btn-sci">
                 <a href="#" class="btn">Download CV</a>
@@ -36,37 +39,101 @@
             </div>
         </div>
 
+        <div class="home-img">
+            <img src="/image/shine.png" alt="Kristian">
+        </div>
+    </section>
+   <section class="about" id="about">
+    <h1>About Me</h1>
+    <p class="about-intro">Hi! I am John Kristian Shine Carro, a Computer Science student at Batangas State University, passionate about web development.</p>
+
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <span class="timeline-date">2025</span>
+                <h3>Participated in National Robotics Competition</h3>
+                <p>Represented my school and competed against teams from other institutions.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <span class="timeline-date">2025</span>
+                <h3>Started Computer Science Program</h3>
+                <p>Enrolled at Batangas State University, began learning programming fundamentals.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <span class="timeline-date">2025</span>
+                <h3>build My first website "ReaDisaster"</h3>
+                <p>Created a simple website to showcase my skills and projects.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <span class="timeline-date">2026</span>
+                <h3>Build Parking Lot Management System</h3>
+                <p>Developed a comprehensive system for managing parking lots.</p>
+            </div>
+        </div>
+
+         <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <span class="timeline-date">Present</span>
+                <h3>Building a strong foundation in web development</h3>
+                <p>Continuing to learn and improve my skills in HTML, CSS, JavaScript, and other web technologies.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    </section>
+    <section class="project" id="projects">
+        <h1>Project Gallary</h1>
+        <div class="project-gallary">
+            <div class="project-item">
+                <img src="/image/parkinglot.png" alt="Project 1">
+                <div class="project-overlay">
+                    <h3>Parking Lot Management System</h3>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <img src="/image/readisaster.png" alt="Project 2">
+                <div class="project-overlay">
+                    <h3>ReaDisaster</h3>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <img src="/image/moister.png" alt="Project 3">
+                <div class="project-overlay">
+                    <h3>MoisTer</h3>
                 </div>
             </div>
         </div>
     </section>
-    <section class="about">
-        <div class="about-info">
-            <h1>About Me</h1>
-            <p>Hi! I am John Kristian Shine Carro, a Computer Science student at Batangas State University. I am passionate about web development and have experience in creating responsive and user-friendly websites. I enjoy learning new technologies and improving my skills in frontend development.</p>
-        </div>
-    </section>
-    <section class="project">
-        <h1>Project Gallary</h1>
-        <div class="project-gallary">
-            <img src="/image/parkinglot.png" alt="Project 1">
-            <img src="/image/readisaster.png" alt="Project 2">
-        </div>
-    </section>
-    <section class="certificate">
+    <section class="certificate" id="certificates">
         <h1>Certificates</h1>
         <div class="certificate-gallary">
-            <img src="/image/cert_1.jpg" alt="Certificate 1">
+            <img src="/image/cert1.jpg" alt="Certificate 1">
             <img src="/image/cert2.jpg" alt="Certificate 2">
             <img src="/image/cert3.jpg" alt="Certificate 3">
             <img src="/image/cert4.jpg" alt="Certificate 4">
             <img src="/image/cert5.jpg" alt="Certificate 5">
             <img src="/image/cert6.jpg" alt="Certificate 6">
             <img src="/image/cert7.jpg" alt="Certificate 7">
-            <img src="/image/cert8.png" alt="Certificate 8">
+            <img src="/image/cert8.jpg" alt="Certificate 8">
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <h1>Contact Me</h1>
         <form action="#" method="post">
             <input type="text" name="name" placeholder="Your Name" required>
@@ -74,5 +141,6 @@
             <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send Message</button>
         </form>
+    </section>
 </body>
 </html>

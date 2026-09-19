@@ -2,12 +2,12 @@
 
 A personal portfolio website built with HTML and CSS, showcasing my projects, certificates, and background as a Computer Science student.
 
-🔗 **Live site:** [your-vercel-url-here](https://your-vercel-url-here.vercel.app)
+🔗 **Live site:** [Kristian](https://kristiancarro-portfolio.vercel.app)
 
 ## About
 
 Hi! I'm John Kristian Shine Carro, a Computer Science student at Batangas State University with a focus on frontend development. This site is where I showcase the projects and certificates I've worked on so far.
-
+`
 ## Sections
 
 - **Home** — Introduction with a profile photo and links to my socials
